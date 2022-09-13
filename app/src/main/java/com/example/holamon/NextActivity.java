@@ -11,4 +11,9 @@ public class NextActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_next);
     }
+
+    @Override
+    protected void onStart(){
+        super.onStart();
+    }
 }
